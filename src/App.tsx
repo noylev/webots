@@ -6,15 +6,15 @@ import {
     Route,
 } from 'react-router-dom';
 import Home from "./components/home/Home";
+import SignUp from "./components/sign-up/SignUp";
 
 function App() {
   return (
     <div className="App">
-      <header>
-      </header>
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />}></Route>
+                <Route path="/start" element={<SignUp />}></Route>
             </Routes>
         </BrowserRouter>
     </div>
