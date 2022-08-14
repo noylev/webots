@@ -1,5 +1,10 @@
 import React from 'react';
 import './App.css';
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+} from 'react-router-dom';
 import Home from "./components/home/Home";
 
 function App() {
@@ -7,7 +12,11 @@ function App() {
     <div className="App">
       <header>
       </header>
-        <Home></Home>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />}></Route>
+            </Routes>
+        </BrowserRouter>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Bullet.module.css';
+import styles from './Bullet.module.css';
 import {BsCheck} from "@react-icons/all-files/bs/BsCheck";
 
 const bullets = [
@@ -12,8 +12,8 @@ function Bullet() {
     return (
         <div>
             {bullets.map((bullet: string, index: number) => {
-                return <div className='Bullet'  key={index}>
-                    <BsCheck className='Icon' />{bullet}
+                return <div className={styles.Bullet}  key={index}>
+                    <BsCheck className={styles.Icon} />{bullet}
                 </div>
             })}
         </div>
