@@ -1,8 +1,10 @@
 import React from 'react';
 import './Home.css';
-import Bullet from "../Bullet/Bullet";
+import Bullet from "./bullet/Bullet";
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+    const navigate = useNavigate();
     return (
         <div className="Home">
             <div className="Title">
@@ -14,7 +16,7 @@ function Home() {
             </div>
             <Bullet></Bullet>
             <div className="Actions">
-                <button>Let's Start</button>
+                <button onClick={() => navigate('/start') }>Let's Start</button>
                 <button>Get to know Wix's AI</button>
             </div>
         </div>
