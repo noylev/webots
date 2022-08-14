@@ -1,0 +1,12 @@
+.Bullet {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.Icon {
+    padding-right: 10px;
+    width: 16px;
+    height: 16px;
+}

@@ -1,0 +1,37 @@
+.Home {
+    padding-left: 120px;
+    padding-top: 270px;
+    color: #313136;
+}
+
+.Title {
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.SubTitle {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.Actions {
+    padding-top: 36px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.Actions button {
+    background-color: #1d1dde;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 24px;
+    border: 5px solid blue;
+    box-shadow: none;
+    cursor: pointer;
+    height: 52px;
+    padding: 10px 16px;
+}
